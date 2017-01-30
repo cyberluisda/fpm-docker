@@ -1,5 +1,5 @@
 FROM node:6
-MAINTAINER Luis David Barrios <luisdavid.barrios@agsnasoft.com>
+MAINTAINER Luis David Barrios (luisdavid.barrios@agsnasoft.com / cyberluisda@gmail.com)
 
 RUN apt-get update -y && apt-get install -y ruby ruby-dev build-essential rpm curl openssh-client && rm -rf /var/lib/apt/lists/*
 RUN gem install fpm
