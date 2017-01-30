@@ -1,5 +1,5 @@
 FROM maven:3-jdk-8
-MAINTAINER Luis David Barrios <luisdavid.barrios@agsnasoft.com>
+MAINTAINER Luis David Barrios (luisdavid.barrios@agsnasoft.com / cyberluisda@gmail.com)
 
 RUN apt-get update && apt-get install --no-install-recommends -y ruby ruby-dev build-essential rpm curl tar && rm -rf /var/lib/apt/lists/*
 
